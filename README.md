@@ -128,7 +128,7 @@ It creates an instance of the DisasterResponseApp class and runs the Flask appli
 1. Run the following commands in the project's root directory to set up your database and model.
 
     - To execute an ETL pipeline for data cleaning and database storing
-        `python Dataset/process_data.py Dataset/disaster_messages.csv Dataset/disaster_categories.csv Dataset/WB_disaster_Database.db`
+        `python Dataset/process_data.py Dataset/messages.csv Dataset/categories.csv Dataset/WB_disaster_Database.db`
     - ML pipeline to be run in order to train the classifier and save
         `python Models/train_classifier.py Dataset/WB_disaster_Database.db Models/classifier.pkl`
 
